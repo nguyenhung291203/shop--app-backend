@@ -1,0 +1,31 @@
+2024-07-31T00:56:27.086+07:00  INFO 12924 --- [shop-app-backend] [main] c.e.s.ShopAppBackendApplication          : Starting ShopAppBackendApplication using Java 17.0.10 with PID 12924 (D:\DEV\BackendJava\shop-app-backend\target\classes started by Admin in D:\DEV\BackendJava\shop-app-backend)
+2024-07-31T00:56:27.088+07:00 DEBUG 12924 --- [shop-app-backend] [main] c.e.s.ShopAppBackendApplication          : Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-07-31T00:56:27.089+07:00  INFO 12924 --- [shop-app-backend] [main] c.e.s.ShopAppBackendApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-31T00:56:27.854+07:00  INFO 12924 --- [shop-app-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-31T00:56:27.918+07:00  INFO 12924 --- [shop-app-backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 9 JPA repository interfaces.
+2024-07-31T00:56:28.397+07:00  INFO 12924 --- [shop-app-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-31T00:56:28.408+07:00  INFO 12924 --- [shop-app-backend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-31T00:56:28.408+07:00  INFO 12924 --- [shop-app-backend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-31T00:56:28.461+07:00  INFO 12924 --- [shop-app-backend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-31T00:56:28.462+07:00  INFO 12924 --- [shop-app-backend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2024-07-31T00:56:28.583+07:00  INFO 12924 --- [shop-app-backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-31T00:56:28.670+07:00  INFO 12924 --- [shop-app-backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-31T00:56:28.714+07:00  INFO 12924 --- [shop-app-backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-31T00:56:29.002+07:00  INFO 12924 --- [shop-app-backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-31T00:56:29.033+07:00  INFO 12924 --- [shop-app-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-31T00:56:29.170+07:00  INFO 12924 --- [shop-app-backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3643e3
+2024-07-31T00:56:29.172+07:00  INFO 12924 --- [shop-app-backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-31T00:56:29.242+07:00  WARN 12924 --- [shop-app-backend] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-07-31T00:56:30.194+07:00  INFO 12924 --- [shop-app-backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-31T00:56:30.197+07:00  INFO 12924 --- [shop-app-backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T00:56:30.445+07:00 DEBUG 12924 --- [shop-app-backend] [main] c.e.s.jwt.JwtAuthenticationFilter        : Filter 'jwtAuthenticationFilter' configured for use
+2024-07-31T00:56:30.668+07:00  INFO 12924 --- [shop-app-backend] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailService
+2024-07-31T00:56:30.694+07:00  WARN 12924 --- [shop-app-backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-31T00:56:31.194+07:00  INFO 12924 --- [shop-app-backend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-31T00:56:31.202+07:00  INFO 12924 --- [shop-app-backend] [main] c.e.s.ShopAppBackendApplication          : Started ShopAppBackendApplication in 4.561 seconds (process running for 5.296)
+2024-07-31T00:56:33.147+07:00  INFO 12924 --- [shop-app-backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-31T00:56:33.147+07:00  INFO 12924 --- [shop-app-backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-31T00:56:33.148+07:00  INFO 12924 --- [shop-app-backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-31T00:57:09.440+07:00  INFO 12924 --- [shop-app-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-31T00:57:09.443+07:00  INFO 12924 --- [shop-app-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-31T00:57:09.449+07:00  INFO 12924 --- [shop-app-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
